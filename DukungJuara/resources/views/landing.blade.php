@@ -78,19 +78,20 @@
                     <h2 class="fw-bold textyellow">Gratis!</h2>
                 </div>
                 <div class="m-5">
-                    <button class="btn btn-warning bgyellow m-2">Buat Dukungan</button>
-                    <button class="btn btn-light m-2 ">Sign In</button>
+                    <button class="btn btn-warning bgyellow m-2 widbut">Buat Dukungan</button>
+                    <button class="btn btn-light m-2 widbut">Sign In</button>
                 </div>
             </div>
         </div>
         {{-- daftar sekarang close --}}
+        
         {{-- footer --}}
         <div class=" bgwhite m-5 ">
-            <div class="row p-5 g-5">
-                <div class="col-4 ">
+            <div class="d-flex flex-wrap flex-row p-5 g-5">
+                <div class=" wfooter  me-5">
                     <img src="konten/DukungJuaraBlackLogo.svg" class="w-100" alt="">
                     <p class="my-3">Making it easy to create instant, real-time polls and surveys for free.</p>
-                    <ul class="d-flex flex-wrap navbar-nav">
+                    <ul class="d-flex flex-wrap flex-row d-grid gap-2 navbar-nav">
                         <li class=" nav-item">
                             <a href="" class="nav-link">Facebook</a> 
                         </li>
@@ -102,7 +103,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-8">
+                <div class=" flex-grow-1">
                     <div class="row ">
                         <div class="col-4">
                             <ul class="navbar-nav">
@@ -143,16 +144,15 @@
                                 </li>
                             </ul> 
                         </div>
-                        
-                        
-                        
-                        
-                        
                     </div>
                 </div>
                 
             </div>    
         </div>
+        {{-- footer close --}}
+
+
+        {{-- footer cpright --}}
         <footer class="bg-white text-center">
             <div >
                 <p class="p-2 m-0">&copy Copyright DukungJuara 2022</p>

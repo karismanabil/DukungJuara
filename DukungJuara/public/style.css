@@ -1,0 +1,47 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bgblue{
+    background-color: #3D68D6;
+}
+.bgyyellow{
+    background-color: #FFD569;
+}
+.bgwhite{
+    background-color: #F3F4F6;
+}
+.bgbluelight{
+    background-color: #5680EB;
+}
+
+.textblue{
+    color: #3D68D6;
+}
+.textyellow{
+    color: #FFD569;
+}
+
+.nav-link:hover{
+    color: #FFD569;
+
+}
+a:hover{
+    color: #FFD569;
+}
+@media only screen and (max-width: 800px) {
+     /* For tablets: */
+.ptablet{
+    padding-bottom: 50%;
+}
+
+.wrapin{
+    flex-wrap: wrap;
+    
+}
+.gambarlanding{
+    display: none;
+}
+}
+
